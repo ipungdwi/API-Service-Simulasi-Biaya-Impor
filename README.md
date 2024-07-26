@@ -40,7 +40,7 @@
 
 ## 2. Testing via Swagger Docs
 
-1. Masukkan Link: http://34.101.109.61:5000/api-docs/
+1. Masukkan Link: `http://34.101.109.61:5000/api-docs/`
 2. Pilih Bagian POST /simulasi-biaya
 3. Klik Try it out
 4. Masukkan JSON:
@@ -102,7 +102,7 @@ DB_DATABASE=db_simulasibiayaimpor
 
 ## 2. Testing via Swagger Docs
 
-1. Masukkan Link: http://localhost1:5000/api-docs/
+1. Masukkan Link: `http://localhost1:5000/api-docs/`
 2. Pilih Bagian POST /simulasi-biaya
 3. Klik Try it out
 4. Masukkan JSON:
