@@ -34,8 +34,20 @@ const createSimulasiBiaya = async (req, res) => {
   try {
     const { kode_barang, nilai_komoditas } = req.body;
 
-    if (!kode_barang || nilai_komoditas === undefined) {
+    if (typeof kode_barang === 'undefinied' || typeof nilai_komoditas === 'undefined') {
       return res.status(400).json({ message: 'Kode barang dan nilai komoditas diperlukan.' });
+    }
+
+    if (kode_barang === null || kode_barang === "") {
+      return res.status(400).json({ message: 'Kode Barang tidak boleh Kosong.' });
+    }
+
+    if (nilai_komoditas === null || nilai_komoditas === "") {
+      return res.status(400).json({ message: 'Nilai komoditas tidak boleh Kosong.' });
+    }
+
+    if (isNaN(parseFloat(nilai_komoditas)) || !isFinite(nilai_komoditas)) {
+      return res.status(400).json({ message: 'Nilai komoditas harus berupa angka yang valid. Tidak boleh mengandung Huruf atau Karakter' });
     }
 
     const uraian_barang = await fetchUraianBarang(kode_barang);
