@@ -36,6 +36,7 @@
   "kode_barang": "10079000",
   "nilai_komoditas": 50
 }
+```
 
 CREATE TABLE simulasi_biaya (
   id_simulasi VARCHAR(36) PRIMARY KEY,
