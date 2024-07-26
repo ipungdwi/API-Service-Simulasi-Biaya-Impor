@@ -7,9 +7,23 @@ const swaggerSpecs = require('./config/swaggerConfig');
 
 const app = express();
 
+
 app.use(bodyParser.json());
+
+app.use((err, req, res, next) => {
+  if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
+    return res.status(400).json({
+      message: 'Invalid JSON',
+      error: err.message
+    });
+  }
+  next();
+});
+
 app.use('/api', simulasiBiayaRoutes);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+
+
 
 const PORT = process.env.PORT;
 
