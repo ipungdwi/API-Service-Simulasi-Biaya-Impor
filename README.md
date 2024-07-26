@@ -22,9 +22,12 @@ API-Service-Simulasi-Biaya-Impor
   - **Storage:** HDD 10 GB
 
 ## Testing via Postman atau Thunder Client
-Method POST : http://34.101.109.61:5000/api/simulasi-biaya
+### Endpoint
+- **Method:** POST 
+- **URL:** `http://34.101.109.61:5000/api/simulasi-biaya`
 
-Json :
+### JSON:
+```json
 {
   "kode_barang": "10079000",
   "nilai_komoditas": 50
