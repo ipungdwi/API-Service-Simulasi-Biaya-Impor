@@ -40,27 +40,27 @@
 
 ### JSON:
 ## **Berhasil**
-![Berhasil](gambar/berhasil.png)
+![Berhasil](gambar/1.png)
 
-## **JSONKosong**
-![JSONKosong](gambar/jsonkosong.png)
+## **JSON Kosong**
+![JSONKosong](gambar/2.png)
 
-## **KodeBarangKosong**
-![KodeBarangKosong](gambar/kodebarangkosong.png)
+## **Kode Barang Kosong**
+![KodeBarangKosong](gambar/3.png)
 
-## **KodeBarangNull**
+## **Kode Barang Null**
 ![KodeBarangNull](gambar/kodebarangnull.png)
 
-## **NilaiKomoditasKosong**
+## **Nilai Komoditas Kosong**
 ![NilaiKomoditasKosong](gambar/nilaikomoditaskosong.png)
 
-## **NilaiKomoditasMengandungAngka**
+## **Nilai Komoditas Mengandung Angka**
 ![NilaiKomoditasMengandungAngka](gambar/nilaikomoditasmengandungangka.png)
 
-## **NilaiKomoditasNull**
+## **Nilai Komoditas Null**
 ![NilaiKomoditasNull](gambar/nilaikomoditasnull.png)
 
-## **SyntaxJSONTidakValid**
+## **Syntax JSON Tidak Valid**
 ![SyntaxJSONTidakValid](gambar/syntaxjsontidakvalid.png)
 
 ## 2. Testing via Swagger Docs
