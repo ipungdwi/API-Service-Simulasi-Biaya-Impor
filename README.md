@@ -43,7 +43,7 @@
 ![Berhasil](gambar/berhasil.png)
 
 ## **JSON Kosong**
-![JSON Kosong](gambar/json-kosong.png)
+![JSON Kosong](gambar/json kosong.png)
 
 ## **Kode Barang Kosong**
 ![Kode Barang Kosong](gambar/kode-barang-kosong.png)
