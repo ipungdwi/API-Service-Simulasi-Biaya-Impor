@@ -36,8 +36,28 @@
   "kode_barang": "10079000",
   "nilai_komoditas": 50
 }
+
+## 2. Testing via Swagger Docs
+
+1. Masukkan Link: http://34.101.109.61:5000/api-docs/
+2. Pilih Bagian POST /simulasi-biaya
+3. Klik Try it out
+4. Masukkan JSON:
+### JSON:
+```json
+{
+  "kode_barang": "10079000",
+  "nilai_komoditas": 50
+}
+5. Klik Execute
+
+
+
 ```
 
+
+
+```
 CREATE TABLE simulasi_biaya (
   id_simulasi VARCHAR(36) PRIMARY KEY,
   kode_barang VARCHAR(8) NOT NULL,
@@ -47,3 +67,4 @@ CREATE TABLE simulasi_biaya (
   nilai_bm FLOAT,
   waktu_insert TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
