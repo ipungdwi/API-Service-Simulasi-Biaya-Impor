@@ -36,3 +36,13 @@
   "kode_barang": "10079000",
   "nilai_komoditas": 50
 }
+
+CREATE TABLE simulasi_biaya (
+  id_simulasi VARCHAR(36) PRIMARY KEY,
+  kode_barang VARCHAR(8) NOT NULL,
+  uraian_barang VARCHAR(200),
+  bm INT,
+  nilai_komoditas FLOAT,
+  nilai_bm FLOAT,
+  waktu_insert TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
