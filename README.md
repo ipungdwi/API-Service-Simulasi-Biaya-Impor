@@ -4,20 +4,23 @@ API-Service-Simulasi-Biaya-Impor
 
 # APP INI SUDAH BERHASIL DI DEPLOY KE GOOGLE CLOUD
 1. Menggunakan Compute Engine || Untuk Mesin Server
-    Region : asia-southeast2 (Jakarta)
-    zone : asia-southeast2-a
-    Machine Type : 	e2-micro (2 vCPU, 1 GB memory)
-    Boot Disk : Type: New balanced persistent disk || Size: 10 GB || Image: Ubuntu 20.04 LTS
+  - **Region:** asia-southeast2 (Jakarta)
+  - **Zone:** asia-southeast2-a
+  - **Machine Type:** e2-micro (2 vCPU, 1 GB memory)
+  - **Boot Disk:** 
+    - Type: New balanced persistent disk 
+    - Size: 10 GB 
+    - Image: Ubuntu 20.04 LTS
 
 2. Menggunakan Cloud SQL - Mysql || Untuk Database
-    Database Version : MySQL 5.7
-    Cloud SQL Edition: Enterprise
-    Preset: Development
-    Region: asia-southeast2
-    Zonal availability: Single Zone
-    Machine : Shared core || 1 vCPU, 0.614 GB
-    Storage: HDD 10 GB
-    
+  - **Database Version:** MySQL 5.7
+  - **Cloud SQL Edition:** Enterprise
+  - **Preset:** Development
+  - **Region:** asia-southeast2
+  - **Zonal availability:** Single Zone
+  - **Machine:** Shared core (1 vCPU, 0.614 GB)
+  - **Storage:** HDD 10 GB
+
 ## Testing via Postman atau Thunder Client
 Method POST : http://34.101.109.61:5000/api/simulasi-biaya
 
