@@ -1,6 +1,6 @@
 # API-Service-Simulasi-Biaya-Impor
 
-**APP INI SUDAH BERHASIL DI DEPLOY KE GOOGLE CLOUD**
+# APP INI SUDAH BERHASIL DI DEPLOY KE GOOGLE CLOUD
 
 ## 1. Infrastruktur
 
@@ -24,7 +24,7 @@
   - **Machine:** Shared core (1 vCPU, 0.614 GB)
   - **Storage:** HDD 10 GB
 
-## 2. Testing via Postman atau Thunder Client
+## 1. Testing via Postman atau Thunder Client
 
 ### Endpoint
 - **Method:** POST 
@@ -36,6 +36,7 @@
   "kode_barang": "10079000",
   "nilai_komoditas": 50
 }
+```
 
 ## 2. Testing via Swagger Docs
 
@@ -50,13 +51,19 @@
   "nilai_komoditas": 50
 }
 5. Klik Execute
-
-
-
 ```
 
+# INSTALL DI LOKAL
 
+**Instalasi**
+1. Pastikan Node.js dan npm terinstal di komputer Anda.
+2. Salin repositori ini ke komputer Anda.
+3. Buka terminal dan navigasikan ke direktori proyek.
+4. Instal dependensi dengan menjalankan perintah npm install.
+5. Jalankan server dengan perintah nodemon.
 
+**Database MySQL**
+Buat tabel dengan menjalankan query berikut:
 ```
 CREATE TABLE simulasi_biaya (
   id_simulasi VARCHAR(36) PRIMARY KEY,
@@ -67,4 +74,42 @@ CREATE TABLE simulasi_biaya (
   nilai_bm FLOAT,
   waktu_insert TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
+**Buat File .env**
+Buat file .env dengan konten berikut:
+```
+PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=123
+DB_DATABASE=db_simulasibiayaimpor
+```
+
+## 1. Testing via Postman atau Thunder Client
+
+### Endpoint
+- **Method:** POST 
+- **URL:** `http://localhost:5000/api/simulasi-biaya`
+
+### JSON:
+```json
+{
+  "kode_barang": "10079000",
+  "nilai_komoditas": 50
+}
+```
+
+## 2. Testing via Swagger Docs
+
+1. Masukkan Link: http://localhost1:5000/api-docs/
+2. Pilih Bagian POST /simulasi-biaya
+3. Klik Try it out
+4. Masukkan JSON:
+### JSON:
+```json
+{
+  "kode_barang": "10079000",
+  "nilai_komoditas": 50
+}
+5. Klik Execute
 ```
