@@ -38,8 +38,30 @@
 }
 ```
 
-Hasil Testing
+### JSON:
+**Berhasil**
 ![Berhasil](gambar/berhasil.png)
+
+## **JSON Kosong**
+![JSON Kosong](gambar/json-kosong.png)
+
+## **Kode Barang Kosong**
+![Kode Barang Kosong](gambar/kode-barang-kosong.png)
+
+## **Kode Barang Null**
+![Kode Barang Null](gambar/kode-barang-null.png)
+
+## **Nilai Komoditas Kosong**
+![Nilai Komoditas Kosong](gambar/nilai-komoditas-kosong.png)
+
+## **Nilai Komoditas Mengandung Angka**
+![Nilai Komoditas Mengandung Angka](gambar/nilai-komoditas-mengandung-angka.png)
+
+## **Nilai Komoditas Null**
+![Nilai Komoditas Null](gambar/nilai-komoditas-null.png)
+
+## **Syntax JSON Tidak Valid**
+![Syntax JSON Tidak Valid](gambar/syntax-json-tidak-valid.png)
 
 ## 2. Testing via Swagger Docs
 
