@@ -49,19 +49,19 @@
 ![KodeBarangKosong](gambar/3.png)
 
 ## **Kode Barang Null**
-![KodeBarangNull](gambar/kodebarangnull.png)
+![KodeBarangNull](gambar/4.png)
 
 ## **Nilai Komoditas Kosong**
-![NilaiKomoditasKosong](gambar/nilaikomoditaskosong.png)
+![NilaiKomoditasKosong](gambar/5.png)
 
 ## **Nilai Komoditas Mengandung Angka**
-![NilaiKomoditasMengandungAngka](gambar/nilaikomoditasmengandungangka.png)
+![NilaiKomoditasMengandungAngka](gambar/6.png)
 
 ## **Nilai Komoditas Null**
-![NilaiKomoditasNull](gambar/nilaikomoditasnull.png)
+![NilaiKomoditasNull](gambar/7.png)
 
 ## **Syntax JSON Tidak Valid**
-![SyntaxJSONTidakValid](gambar/syntaxjsontidakvalid.png)
+![SyntaxJSONTidakValid](gambar/8.png)
 
 ## 2. Testing via Swagger Docs
 
