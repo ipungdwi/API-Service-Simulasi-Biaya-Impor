@@ -38,6 +38,9 @@
 }
 ```
 
+Hasil Testing
+![Berhasil](gambar/berhasil.png)
+
 ## 2. Testing via Swagger Docs
 
 1. Masukkan Link: `http://34.101.109.61:5000/api-docs/`
